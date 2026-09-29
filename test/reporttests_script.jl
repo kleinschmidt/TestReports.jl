@@ -22,7 +22,7 @@ else
     "references/reporttests_pass_pre_1_7.xml"
 end
 
-reference_file_fail = if VERSION >= "v1.13"
+reference_file_fail = if VERSION >= v"1.13"
     "references/reporttests_fail.xml"
 elseif VERSION >= v"1.9"
     "references/reporttests_fail_pre_1_13.xml"
