@@ -15,7 +15,7 @@ end
     test_file = if VERSION >= v"1.13.0"
         "references/complexexample.txt"
     elseif VERSION >= v"1.11-"
-        "references/complexexample.txt"
+        "references/complexexample_pre_1_13.txt"
     elseif VERSION >= v"1.9.0-beta4.29"  # https://github.com/JuliaLang/julia/pull/48526
         "references/complexexample_pre_1_11.txt"
     elseif VERSION >= v"1.7.0"
